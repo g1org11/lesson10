@@ -46,13 +46,15 @@ body{
     flex-wrap: wrap;
 }
 .section{
-    margin-left: 90px;
     margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .sec-content{
     width: 503px;
     height: 181px;
-    display: inline-block;
+    
 }
 .sec-content h3{
     margin-bottom: 30px;
@@ -74,7 +76,7 @@ li{
 
 }
 .sec-wrapper{
-    display: inline-block;
+    
     margin-left: 127px;
 }
 .sec-wrapper h3{
@@ -89,6 +91,58 @@ li{
     margin-right: 15px;
     margin-bottom: 15px; 
 }
+img{
+    width: 761px;
+    height: 441px;
+    border-radius: 5px;
+}
+.box1{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #FFFFFF;
+}
+.rightbox h4{
+    font-size: 14px;
+    line-height: 33.3px;
+    color: #262626;
+    text-transform: uppercase;
+    margin-top: 39px;
+    margin-bottom: 16px;
+}
+
+  
+.box1-p{
+    font-size: 15px;
+    line-height: 33.3px;
+    color: #262626;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+
+}
+.box1-content{
+    font-size: 12px;
+    line-height: 33.3px;
+    color: #959595;
+    margin-bottom: 31px;
+    text-transform: uppercase;
+}
+.box1-psection{
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}.box2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+
+    
 
 
 
