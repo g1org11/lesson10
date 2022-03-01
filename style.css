@@ -110,6 +110,9 @@ img{
     margin-top: 39px;
     margin-bottom: 16px;
 }
+.title-box{
+    display: none;
+}
 
   
 .box1-p{
