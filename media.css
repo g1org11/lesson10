@@ -1,4 +1,7 @@
 @media  (max-width:1024px){
+    .conteiner{
+        margin-left: -30px;
+    }
     .block{
         display: flex;
         flex-wrap: wrap;
@@ -7,6 +10,8 @@
         margin-top: -40px;
         font-size: 20px;
         line-height: 35px;
+        
+        height: 49px;
     }
     .text-box{
         margin-top: -40px;
@@ -17,6 +22,7 @@
     }
     .section{
         margin-top: -60px;
+
     }
 
     .sec-wrapper{
@@ -70,4 +76,55 @@
    .box1-psection{
        display: none;
    }
+}@media  (max-width:780px){
+    .conteiner{
+        margin-left: -60px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 25px;
+        width: 314px;
+        height: 49px;   
+    }
+    .text-box{
+        font-size: 13px;
+        line-height: 25px;
+        color: #434343;
+        width: 315px;
+        height: 126px;
+        
+    }
+    .section{
+        margin-top: 29px;
+        width: 314px;
+
+    }
+    .grid-block{
+        width: 315px;
+       
+       
+    }
+    .box1{
+        width: 315px;
+       
+        
+
+    }
+    
+    .rightbox  {
+        position: relative;
+        left: 90px;
+      
+    }
+    .box2{
+        width: 315px;
+    }
+
+
+    
+    img{
+        width: 315px;
+        height: 276px;
+    }
+
 }
